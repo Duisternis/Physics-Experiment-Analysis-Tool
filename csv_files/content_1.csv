@@ -1,0 +1,12 @@
+sno,voltage,20
+1,1,10
+2,2,20
+3,3,30
+4,4,40
+5,5,50
+table_end,,
+range of ammeters,1,100
+least coutn of ammeter,1,
+range of voltmeter,1,10
+least count of voltmeter,0.1,
+length of given wire,100,
