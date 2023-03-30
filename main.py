@@ -52,9 +52,9 @@ choice = ttk.Combobox(
     nav,
     state="readonly",
     values=[
-        "Ohm's Law",
-        "Numeric Aperture",
-        "Bending Loss"
+        "1. Ohm's Law",
+        "2. Numeric Aperture",
+        "3. Bending Loss"
     ],
     width=15
 )
