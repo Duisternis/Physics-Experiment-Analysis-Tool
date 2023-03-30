@@ -1,5 +1,5 @@
 
-![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
+![Logo](/screenshots/header.png)
 
 [![Python Version](https://img.shields.io/pypi/pyversions/matplotlib?color=lightblue&label=Python&logo=python&logoColor=lightblue&style=for-the-badge)](https://python.org/)
 
@@ -21,15 +21,15 @@ To use the application, simply open the GUI by running the main.py file, select 
 ## Installation
 
 Clone the repository: 
-```
+```console
 git clone https://github.com/Duisternis/Physics-Experiment-Analysis-Tool.git
 ```
 Install the dependencies: 
-```
+```console
 pip install -r requirements.txt
 ```
 Run the application: 
-```
+```console
 python main.py
 ``` 
 
@@ -42,10 +42,20 @@ python main.py
 **WARNING -** Choose the designated csv files for a perticular experiment. Choosing any other file will result in unwanted outputs.
 
 
-## Screenshots
+## Screenshots (how to use the application)
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+**STEP - 1:** Choose an experiment from the drop down, and browse the corresponding csv file.
+
+  ![App Screenshot](/screenshots/tut_1.png)
+
+**STEP - 2:** Click on submit button.
+
+  ![App Screenshot](/screenshots/tut_2.png)
+  
+**STEP - 3:** Navigate between different graphs and tables through navigation pane.
+
+  ![App Screenshot](/screenshots/tut_3.png)
+  ![App Screenshot](/screenshots/tut_4.png)
 
 
 ## Authors
@@ -54,4 +64,4 @@ The Physics Experiment Analysis Tool was created by [@Duisternis](https://www.gi
 
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+This project is licensed under the [MIT](https://choosealicense.com/licenses/mit/) License - see the [LICENSE](/LICENSE.md) file for details. You are free to use, modify, and distribute this software for any purpose, as long as you include the original copyright and license notices in any copy of the software. This software is provided "as is," without warranty of any kind, express or implied.
