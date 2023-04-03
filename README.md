@@ -34,9 +34,9 @@ python main.py
 ``` 
 
 ### Note :
-- Information regarding the different csv files can be accessed using csv_info.
+- Information regarding the different csv files can be accessed using [csv_info](/csv_files/csv_files.md).
 - PDF files are provided for the different experiments featured in this application.
-- CSV files with sample readings are provided in csv_files folder.
+- CSV files with sample readings are provided in [csv_files](/csv_files/) folder.
 - `content_1.csv` - here '1' shows which experiment csv file belongs to. _(compare it with dropdown choices - shown in screenshots)_
 
 **WARNING -** Choose the designated csv files for a perticular experiment. Choosing any other file will result in unwanted outputs.
