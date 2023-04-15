@@ -133,11 +133,11 @@ def display_obs(content, calculation):
     rh, b_ = 0, 0
     for i in calculation[1]:
         rh += i[3]
-        b += i[0]
+        b_ += i[0]
     rh /= len(calculation[1])
-    b /= len(calculation[1])
+    b_ /= len(calculation[1])
     rh = round(rh, 2)
-    b = round(b, 2)
+    b_ = round(b, 2)
 
     rho = 0
     for i in calculation[0]:
