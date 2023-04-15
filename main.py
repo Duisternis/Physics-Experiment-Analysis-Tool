@@ -7,6 +7,7 @@ import os
 from exp1 import main as main1
 from exp2 import main as main2
 from exp3 import main as main3
+from exp4 import main as main4
 
 def solve(): 
     index = choice.current()
@@ -17,6 +18,8 @@ def solve():
         main2(path, content, graphics, g_nav)
     elif index==2:
         main3(path, content, graphics, g_nav)
+    elif index==3:
+        main4(path, content, graphics, g_nav)
 
 def open_file():
     file=filedialog.askopenfile()
@@ -54,7 +57,8 @@ choice = ttk.Combobox(
     values=[
         "1. Ohm's Law",
         "2. Numeric Aperture",
-        "3. Bending Loss"
+        "3. Bending Loss",
+        "4. Hall Effect"
     ],
     width=15
 )

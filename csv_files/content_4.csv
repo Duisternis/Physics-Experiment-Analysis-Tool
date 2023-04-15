@@ -12,3 +12,6 @@ Mag Field (Gauss),Current (mA),Hall V (mV)
 1050,2.5,51
 1400,2.5,57
 2100,2.5,72
+-1,,
+b (mm),6,
+t (mm),0.5,
