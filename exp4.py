@@ -130,7 +130,7 @@ def display_obs(content, calculation):
     Yscroll.config(command=textarea.yview)
     textarea.pack(expand=1, fill=BOTH, padx=50, pady=50)
 
-    rh, b = 0, 0
+    rh, b_ = 0, 0
     for i in calculation[1]:
         rh += i[3]
         b += i[0]
@@ -149,7 +149,7 @@ def display_obs(content, calculation):
 
     n = round(1/(1.6*rh), 2)
 
-    angle = round(math.tan(mu*b), 2)
+    angle = round(math.tan(mu*b_), 2)
 
     words_of_wonders = f"""
 AIM ::
