@@ -4,10 +4,10 @@ from tkinter.ttk import *
 from tkinter.filedialog import askopenfile
 import os
 
-from exp1 import main as main1
-from exp2 import main as main2
-from exp3 import main as main3
-from exp4 import main as main4
+from experiments.exp1 import main as main1
+from experiments.exp2 import main as main2
+from experiments.exp3 import main as main3
+from experiments.exp4 import main as main4
 
 def solve(): 
     index = choice.current()

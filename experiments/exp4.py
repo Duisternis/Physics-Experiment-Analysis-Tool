@@ -149,7 +149,7 @@ def display_obs(content, calculation):
 
     n = round(1/(1.6*rh), 2)
 
-    angle = round(math.tan(mu*b_), 2)
+    angle = math.tan(mu*b_)
 
     words_of_wonders = f"""
 AIM ::
