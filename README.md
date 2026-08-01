@@ -1,6 +1,3 @@
-
-![Logo](/screenshots/header.png)
-
 [![Python Version](https://img.shields.io/pypi/pyversions/matplotlib?color=lightblue&label=Python&logo=python&logoColor=lightblue&style=for-the-badge)](https://python.org/)
 
 # Physics Experiment Analysis Tool
